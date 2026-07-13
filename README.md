@@ -59,6 +59,28 @@ The following visualizations were generated to better understand the dataset:
 - Humidity vs AQI
 - Wind Speed Distribution
 
+## 📸 Project Visualizations
+
+### AQI Distribution Histogram
+
+![AQI Distribution](images/aqi_distribution.png)
+
+### AQI Box Plot
+
+![AQI Box Plot](images/aqi_boxplot.png)
+
+### Correlation Heatmap
+
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+### Monthly AQI Trend
+
+![Monthly AQI Trend](images/monthly_aqi_trend.png)
+
+### Pollutant Average vs AQI Scatter Plot
+
+![Pollutant Average vs AQI](images/pollutant_vs_aqi.png)
+
 ## 🤖 Machine Learning Model
 
 Algorithm Used: Linear Regression
@@ -78,13 +100,22 @@ Evaluation Metrics:
 
 The model achieved a moderate prediction accuracy, demonstrating the relationship between environmental factors and AQI values.
 
-## Project structure
+## 📂 Project Structure
 
+```text
 AQI-Prediction-Using-Linear-Regression/
 │
 ├── airproject.ipynb
 ├── enriched_aqi_dataset.csv
+├── requirements.txt
 ├── README.md
+└── images/
+    ├── aqi_distribution.png
+    ├── aqi_boxplot.png
+    ├── correlation_heatmap.png
+    ├── monthly_aqi_trend.png
+    └── pollutant_vs_aqi.png
+```
 
 ## ▶️ How to Run
 

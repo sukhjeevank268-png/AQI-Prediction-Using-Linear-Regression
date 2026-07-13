@@ -16,7 +16,7 @@ This project predicts the Air Quality Index (AQI) using a Linear Regression mach
 - Evaluate the model using standard metrics.
 
 ## 📂 Dataset
-
+The dataset contains environmental and pollutant-related information used to predict AQI.
 The dataset contains information such as:
 
 - Latitude
@@ -46,7 +46,7 @@ The dataset contains information such as:
 
 ## 📊 Exploratory Data Analysis (EDA)
 
-The following visualizations were created:
+The following visualizations were generated to better understand the dataset:
 
 - AQI Distribution Histogram
 - AQI Box Plot
@@ -61,36 +61,38 @@ The following visualizations were created:
 
 ## 🤖 Machine Learning Model
 
-- Algorithm: Linear Regression
+Algorithm Used: Linear Regression
+
+The dataset was divided into training and testing sets. A Linear Regression model was trained and evaluated using standard regression metrics.
 
 ## 📈 Model Evaluation
 
-The model was evaluated using:
+Evaluation Metrics:
 
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
 - R² Score
 
-Model Accuracy (R² Score): **68.33%**
+**Model Accuracy (R² Score): 68.33%**
 
-## 📁 Project Structure
+The model achieved a moderate prediction accuracy, demonstrating the relationship between environmental factors and AQI values.
 
-```
+## Project structure
+
 AQI-Prediction-Using-Linear-Regression/
 │
-├── AQI_Prediction.ipynb
+├── airproject.ipynb
 ├── enriched_aqi_dataset.csv
-└── README.md
-```
+├── README.md
 
 ## ▶️ How to Run
 
-1. Download the repository.
-2. Open `AQI_Prediction.ipynb` in Jupyter Notebook.
-3. Install the required Python libraries.
-4. Run all notebook cells in order.
-
+1. Clone or download the repository.
+2. Install the required Python libraries.
+3. Open `airproject.ipynb` in Jupyter Notebook.
+4. Run all notebook cells sequentially.
+ 
 ## 📌 Future Improvements
 
 - Improve prediction accuracy using advanced machine learning models.
@@ -102,3 +104,5 @@ AQI-Prediction-Using-Linear-Regression/
 **Sukhjeevan Kaur**
 
 B.Tech in Artificial Intelligence & Machine Learning (AIML)
+
+Summer Training Project – Python & Machine Learning

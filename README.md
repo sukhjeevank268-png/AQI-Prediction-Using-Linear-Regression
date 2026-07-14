@@ -18,7 +18,8 @@ This project predicts the Air Quality Index (AQI) using a Linear Regression mach
 ---
 
 ## 🖥️ Web Application Preview
-
+![AQI Predictor Web App](images/streamlit_app.png)
+![AQI Predictor Web Appp](streamlit_app.png)
 
 
 ## 🎯 Objectives
